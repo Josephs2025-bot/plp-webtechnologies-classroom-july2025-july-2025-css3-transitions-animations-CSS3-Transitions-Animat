@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JavaScript Interactive Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bringing Web Pages to Life</h1>
+        <p>Exploring CSS3 Animations and JavaScript Functions</p>
+    </header>
+
+    <main>
+        <!-- Part 1: CSS Animations -->
+        <section id="part1" class="part">
+            <h2>Part 1: CSS3 Transitions and Animations</h2>
+            
+            <div class="example-container">
+                <h3>Button Hover Effects</h3>
+                <button class="btn-hover-effect">Hover Me</button>
+                <button class="btn-3d-effect">3D Effect</button>
+            </div>
+            
+            <div class="example-container">
+                <h3>Continuous Animations</h3>
+                <div class="continuous-animation">
+                    <div class="pulse-box">Pulse</div>
+                    <div class="rotate-box">Rotate</div>
+                    <div class="bounce-box">Bounce</div>
+                </div>
+            </div>
+            
+            <div class="example-container">
+                <h3>Transform on Hover</h3>
+                <div class="hover-transform">
+                    <div class="card">Scale Up</div>
+                    <div class="card">Slide Up</div>
+                    <div class="card">Rotate</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 2: JavaScript Functions -->
+        <section id="part2" class="part">
+            <h2>Part 2: JavaScript Functions</h2>
+            
+            <div class="example-container">
+                <h3>Function Parameters and Return Values</h3>
+                <div class="input-group">
+                    <input type="number" id="num1" placeholder="Enter first number">
+                    <input type="number" id="num2" placeholder="Enter second number">
+                    <button id="calculate">Calculate</button>
+                </div>
+                <div class="result" id="math-result">Result will appear here</div>
+            </div>
+            
+            <div class="example-container">
+                <h3>Scope Demonstration</h3>
+                <button id="scope-demo">Run Scope Demo</button>
+                <div class="result" id="scope-result">Scope results will appear here</div>
+            </div>
+            
+            <div class="example-container">
+                <h3>String Manipulation</h3>
+                <input type="text" id="text-input" placeholder="Enter some text">
+                <div class="button-group">
+                    <button id="reverse-btn">Reverse Text</button>
+                    <button id="uppercase-btn">Uppercase</button>
+                    <button id="count-btn">Count Letters</button>
+                </div>
+                <div class="result" id="text-result">Text results will appear here</div>
+            </div>
+        </section>
+
+        <!-- Part 3: Combining CSS and JavaScript -->
+        <section id="part3" class="part">
+            <h2>Part 3: Combining CSS Animations with JavaScript</h2>
+            
+            <div class="example-container">
+                <h3>Click to Animate</h3>
+                <button id="animate-box-btn">Animate Box</button>
+                <div id="animated-box" class="js-box">Hello!</div>
+            </div>
+            
+            <div class="example-container">
+                <h3>Card Flip</h3>
+                <div class="card-container">
+                    <div class="card-flip" id="flip-card">
+                        <div class="card-front">Front</div>
+                        <div class="card-back">Back</div>
+                    </div>
+                </div>
+                <button id="flip-card-btn">Flip Card</button>
+            </div>
+            
+            <div class="example-container">
+                <h3>Loading Animation Control</h3>
+                <div class="loader" id="loader"></div>
+                <div class="button-group">
+                    <button id="start-loader">Start Loading</button>
+                    <button id="stop-loader">Stop Loading</button>
+                </div>
+            </div>
+            
+            <div class="example-container">
+                <h3>Popup Modal</h3>
+                <button id="open-modal">Open Modal</button>
+                <div class="modal" id="modal">
+                    <div class="modal-content">
+                        <span class="close" id="close-modal">&times;</span>
+                        <h2>Welcome to the Modal!</h2>
+                        <p>This modal appears with a smooth CSS animation triggered by JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Interactive Web Page with CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
